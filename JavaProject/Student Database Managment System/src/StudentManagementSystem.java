@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class StudentManagementSystem {
     static final String DB_URL = "jdbc:mysql://localhost:3306/student_db";
-    static final String USER = "root";  // your MySQL username
-    static final String PASS = "root"; // your MySQL password
+    static final String USER = "root"; 
+    static final String PASS = "root"; 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class StudentManagementSystem {
                 System.out.println("5. Exit");
                 System.out.print("Enter choice: ");
                 int choice = sc.nextInt();
-                sc.nextLine(); // consume newline
+                sc.nextLine(); 
 
                 switch (choice) {
                     case 1:
@@ -117,3 +117,4 @@ public class StudentManagementSystem {
         }
     }
 }
+
